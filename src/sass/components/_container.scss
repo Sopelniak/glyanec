@@ -1,0 +1,21 @@
+.container {
+  // mobile screen styles
+  max-width: 480px;
+  padding-left: 75px;
+  padding-right: 75px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: 1px solid red;
+  outline-offset: -1px;
+
+  // tablet screen styles
+  @media screen and (min-width: 768px) {
+    max-width: 720px;
+  }
+
+  // desktop screen styles
+  @media screen and (min-width: 1200px) {
+    max-width: 1920px;
+  }
+}

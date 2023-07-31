@@ -1,6 +1,8 @@
 // utils
 
 @import './utils/normalize';
+@import './utils/variables';
+@import './utils/fonts';
 
 // base
 
@@ -9,6 +11,8 @@
 
 // components
 
+@import './components/container';
+
 // layouts
 
-@import './base/reset';
+@import './layouts/header';

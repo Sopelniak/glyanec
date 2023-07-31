@@ -1,25 +1,48 @@
-<header>
-  <a href="./index.html">
-    <img src="./images/logo.svg" alt="logo" />
-  </a>
-  <nav>
-    <ul>
-      <li><a href="">Чому ми?</a></li>
-      <li><a href="">Партнери</a></li>
-      <li><a href="">Благодійність</a></li>
-      <li><a href="">Про нас</a></li>
-      <li><a href="">Drupal</a></li>
+<header class="header">
+  <div class="container header__container">
+    <a class="logo header__logo" href="./index.html">
+      <img class="logo__icon" width="266" src="./images/logo.svg" alt="logo" />
+    </a>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a class="nav-list__link" href="">Чому ми?</a></li>
+        <li><a class="nav-list__link" href="">Партнери</a></li>
+        <li><a class="nav-list__link" href="">Благодійність</a></li>
+        <li><a class="nav-list__link" href="">Про нас</a></li>
+        <li><a class="nav-list__link" href="">Drupal</a></li>
+      </ul>
+    </nav>
+    <ul class="social-list">
+      <li>
+        <a href="">
+          <img src="./images/header/facebook.png" alt="facebook" width="35" />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="./images/header/instagram.png" alt="instagram" width="35" />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src="./images/header/viber.png" alt="viber" width="35" />
+        </a>
+      </li>
     </ul>
-  </nav>
-  <div>
-    <ul>
-      <li><a href="">facebook</a></li>
-      <li><a href="">instagram</a></li>
-      <li><a href="">viber</a></li>
-    </ul>
-    <div>
-      <p>Пн-Пт з 10 до 18</p>
-      <a href="tel:+380800759759">0 (800) 759-759</a>
+    <div class="header-contacts">
+      <p class="header-contacts__schedule">Пн-Пт з 10 до 18</p>
+      <div class="header-contacts__tels-box">
+        <a href="tel:+380800759759" class="header-contacts__tel"
+          >0 (800) 759-759</a
+        >
+        <button class="header-contacts__btn" type="button">
+          <img
+            src="./images/header/chevron_down.svg"
+            width="24"
+            alt="chevron"
+          />
+        </button>
+      </div>
     </div>
   </div>
 </header>
