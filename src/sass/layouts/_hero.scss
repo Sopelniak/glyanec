@@ -1,0 +1,51 @@
+.hero__section {
+  padding-bottom: 47px;
+
+  background-image: url(../images/hero/circle_cut.svg),
+    url(../images/hero/circle.svg), url(../images/hero/circle.svg),
+    url(../images/hero/circle.svg), url(../images/hero/Group.svg),
+    url(../images/hero/yellow_figure.svg);
+  background-position: left 0 top 0, left 596px bottom 208px,
+    right 795px bottom 312px, top 0 right 637px, top 97px right 75px,
+    bottom 90px right 0px;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat;
+  background-size: 296px, 218px, 31px, 93px, 667px, 762px;
+}
+
+.hero__pretitle {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+}
+
+.hero__title {
+  margin-bottom: 20px;
+
+  font-size: 90px;
+  font-weight: 900;
+  line-height: 110%; /* 99px */
+}
+
+.hero__subtitle {
+  margin-bottom: 40px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+}
+
+.hero__btn {
+  margin-bottom: 234px;
+}
+
+.hero__more-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 125%; /* 17.5px */
+}

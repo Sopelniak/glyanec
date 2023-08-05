@@ -1,0 +1,46 @@
+.test-task__section {
+}
+
+.test-task__title {
+  margin-bottom: 50px;
+}
+
+.test-task__box {
+  display: flex;
+  gap: 40px;
+}
+
+.test-task__img {
+  width: 900px;
+}
+
+.test-task__text {
+  height: 390px;
+  margin: 37px 0;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+
+  overflow-y: scroll;
+
+  & p:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &-first-stage {
+    font-weight: 700;
+  }
+
+  &-second-stage {
+    & span {
+      font-weight: 600;
+    }
+  }
+
+  &-third-stage {
+    & span {
+      font-weight: 700;
+    }
+  }
+}
