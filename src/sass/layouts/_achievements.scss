@@ -1,0 +1,45 @@
+.achievement__section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  background: var(--accent-gradient);
+  background-image: url(../images/achievements/bg-img-lamp.svg),
+    var(--accent-gradient);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 50px right 139px, 0 0;
+}
+
+.achievement__title {
+  margin-bottom: 50px;
+}
+
+.achievement__list {
+  max-width: 870px;
+  margin-bottom: 28px;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
+}
+
+.achievement__item {
+  &:first-child {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 125%; /* 32.5px */
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.progects__list {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
