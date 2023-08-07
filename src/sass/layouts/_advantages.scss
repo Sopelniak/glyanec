@@ -1,0 +1,111 @@
+.advantages__section {
+  position: relative;
+  padding-bottom: 0;
+  background-image: url(../images/advantages/Frame_686904.svg),
+    url(../images/advantages/bg_Vector.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left 50% top 218px, right 0 top 550px;
+}
+
+.advantages__item {
+  position: absolute;
+  width: 505px;
+
+  &:nth-child(-n + 5) {
+    text-align: right;
+  }
+
+  &-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 125%; /* 25px */
+  }
+
+  &-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%; /* 20px */
+  }
+
+  &:nth-child(1) {
+    top: 205px;
+    right: calc(50% + 228px);
+  }
+
+  &:nth-child(2) {
+    top: 334px;
+    right: calc(50% + 361px);
+  }
+
+  &:nth-child(3) {
+    top: 507px;
+    right: calc(50% + 394px);
+  }
+
+  &:nth-child(4) {
+    top: 646px;
+    right: calc(50% + 361px);
+  }
+
+  &:nth-child(5) {
+    top: 804px;
+    right: calc(50% + 228px);
+  }
+
+  &:nth-child(6) {
+    top: 223px;
+    left: calc(50% + 228px);
+  }
+
+  &:nth-child(7) {
+    top: 360px;
+    left: calc(50% + 361px);
+  }
+
+  &:nth-child(8) {
+    top: 508px;
+    left: calc(50% + 394px);
+  }
+
+  &:nth-child(9) {
+    top: 646px;
+    left: calc(50% + 361px);
+  }
+
+  &:nth-child(10) {
+    top: 794px;
+    left: calc(50% + 228px);
+  }
+}
+
+.gallery {
+  position: relative;
+  margin-top: 806px;
+}
+
+.gallery__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery__btn {
+  position: absolute;
+  width: 56px;
+  height: 53px;
+  background-color: #ffffff;
+
+  &:hover {
+    background-color: var(--btn-hover-color);
+  }
+
+  &--left {
+    top: 117px;
+    left: -28px;
+  }
+
+  &--right {
+    top: 117px;
+    right: -28px;
+  }
+}
