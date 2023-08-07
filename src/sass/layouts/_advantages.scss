@@ -91,13 +91,7 @@
 
 .gallery__btn {
   position: absolute;
-  width: 56px;
-  height: 53px;
   background-color: #ffffff;
-
-  &:hover {
-    background-color: var(--btn-hover-color);
-  }
 
   &--left {
     top: 117px;

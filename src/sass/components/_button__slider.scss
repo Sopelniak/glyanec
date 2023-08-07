@@ -1,0 +1,8 @@
+.btn__slider {
+  width: 56px;
+  height: 53px;
+
+  &:hover {
+    background-color: var(--btn-hover-color);
+  }
+}
